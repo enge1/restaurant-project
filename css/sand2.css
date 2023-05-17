@@ -1,0 +1,67 @@
+body{
+    background-color: aliceblue;
+    background-image: url("../imgs/13.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: cornsilk;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.contain{
+    margin: 200px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 40% 60%;  
+}
+
+.time{
+    background-color: black;
+    padding: 50px;
+    outline: 3px dashed gold;
+    outline-offset: -30px;
+    text-align: center;
+    
+}
+
+.heading{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+
+.days{
+    color: gold;
+    font-size: 20px;
+}
+
+.form{
+    padding: 30px 40px;
+    margin: auto;
+    color: black;
+    background-color: gold;
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.form-field{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input,select{
+    padding: 10px 10px;
+}
+
+.btn{
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;   
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,44 @@
+body
+{
+    background-image: url('../imgs/77.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.video span
+{
+    text-align: center;
+    color:crimson;
+}
+a:hover
+{
+    color: #F00;
+    font-weight: bold;
+    text-decoration:overline;
+}
+.york
+{
+    background-color:cornflowerblue;
+    color:pink;
+    border-radius:18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.LA
+{
+    background-color:darkgreen;
+    color:burlywood;
+    border-radius:18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.la span
+{
+    float: right;
+}
+.la
+{
+    border-width: 3px;
+    border-style:double;
+    border-color:sandybrown;
+}

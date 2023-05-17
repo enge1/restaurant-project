@@ -1,0 +1,69 @@
+body
+{
+    background-image: url('../imgs/77.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.video span
+{
+    text-align: center;
+    color:crimson;
+}
+a:hover
+{
+    background-color: rgba(255, 68, 0, 0.678);
+    color: #F00;
+    font-weight: bold;
+    text-decoration:none;
+}
+.york
+{
+    background-color:cornflowerblue;
+    color:rgb(255, 192, 203);
+    border-radius:18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.LA
+{
+    background-color:darkgreen;
+    color:burlywood;
+    border-radius:18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.la span
+{
+    float: right;
+}
+.la .nmz
+{
+    border-width: 5px;
+    border-style: solid;
+    border-color:rgb(255, 119, 0);
+}
+.la .afd{
+    border-width: 5px;
+    border-style: solid;
+    border-color:rgb(255, 119, 0);
+}
+ a{
+    background-color: orange;
+    width: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 13px;
+    margin-top: 60px;
+}
+table{
+    border-width: 5px;
+    border-style: solid;
+    border-color:rgb(255, 119, 0);
+    background-color: rgb(251, 255, 0);
+}
+td .gfg{
+    background-color: red;
+    font-size: large;
+}
+

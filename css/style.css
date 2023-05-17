@@ -1,0 +1,83 @@
+.header
+{
+    background-image: url('../imgs/7.jpg');
+    background-size: cover;
+    background-position: center center;
+    color:antiquewhite;
+    font-size: 100px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    height: 88vh;
+}
+.address
+{
+    color:black;
+    letter-spacing:normal;
+    text-align:center;
+    direction: ltr;
+    text-transform: uppercase;
+    border: 5px double #F00;   
+}
+.content
+{
+    width:800px;
+    margin:10px auto;
+    background-color:antiquewhite;
+    padding: 10px;
+}
+.child
+{
+    background-color:burlywood;
+    color: blanchedalmond;
+    padding: 10px;
+    margin:20px;
+    width:150px;
+}
+.content span
+{
+    float: right;
+}
+.sandwich
+{
+    font-family: cursive;
+    height: 627px;
+    width: 1200px;
+    color:white;
+    background-image: url('123.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: bottom;
+    border: 3px solid black;
+}
+.sandwich span
+{
+    float: right;
+}
+.special
+{
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.offers
+{
+    font-family: Algerian;
+    background-color:orangered;
+    color:whitesmoke;
+    border-radius: 18px;
+    text-align: center;
+}
+.offers span
+{
+    text-decoration: line-through;
+}
+.footer
+{
+    font-family: cursive;
+    background: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+}

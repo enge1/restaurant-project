@@ -1,0 +1,95 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+    background: url('../imgs/7.jpg');
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center ;
+    height: 88vh;
+}
+  .samir{
+    position: relative;
+    width: 300px;
+    background: rgba(0,0,0,0.8);
+    margin: 12px auto;
+    padding: 50px 0;
+    color: gold;
+    box-shadow: 0 0 20px 2px rgb(0, 0, 0);
+    margin-top: 4%;
+  }
+  .arx{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  /*
+  .h1{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+  }*/
+  .arx input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+  }
+  .taya:hover{
+    background-color: rgba(228, 112, 3, 0.445);
+
+}
+::placeholder{
+  color: tomato;
+  opacity: 0.8;
+}
+.samir form h1{
+    text-align: center;
+    margin:7px;
+}
+::placeholder{
+  color: #ccc;
+}
+.eye{
+  position: absolute;
+  cursor: pointer;
+}
+#hide1{
+  display: none;
+}
+.buttons-effect{
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  margin-left: 75px;
+  margin-top: 10px;
+  background-color:gold;
+  width: 140px;
+  padding: 10px;
+  border-radius: 0px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  border:none;
+}
+.buttons-effect.from-left span:first-child{
+  position: absolute;
+  left: 0;
+  top:0;
+  width:0%;
+  height: 100%;
+  display: block;
+  background-color: rgba(255, 0, 0, 0.774);
+  z-index: 1;
+}
+.buttons-effect.from-left span:last-child{
+  position: relative;
+  z-index: 2;
+}

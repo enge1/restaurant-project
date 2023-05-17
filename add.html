@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+   <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="that's my websites">
+     
+     <link rel="stylesheet" type="text/css" href="/css/style.css"> 
+     <link rel="stylesheet" href="./css/bootstrap.css">
+     <link rel="stylesheet" href="./css/add.css">
+    
+   <title>Search</title>
+
+ </head>
+ <body class="body">
+     <div class="navbar">
+        <div class="brand">
+            <h2>Classic</h2>
+        </div>
+        <ul class="links">
+            <li class="active"> <a href="titel.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li class="activ" ><a href="#">Search</a></li>
+            <li><a href="anir.html">Contact</a></li>
+            <li><a href="wer.html">Compare</a></li>
+        </ul>
+    </div>
+     
+    <div class="container" >
+        <b><p  class="p">FIND EVERY THING DO YOU WANT!</p></b>
+    <div class="row">
+     <div class="col" class="col1" >
+  <div id="myDropdown" class="dropdown-content">
+    <input  class="myInput"type="text" placeholder="EnterYourFood OR Drink.." id="myInput" onkeyup="filterFunction()" >
+      <div class="pass">
+    <a href="Menu.html">Pizza&Pasta</a>
+    <a href="new 1.html">Fish</a>
+    <a href="sandy.html">Dessert</a>
+    <a href="enge.html">Meals</a>
+    <a href="add.html">Drinks</a>
+    <a href="#"></a>
+    <a href="#"></a>
+      </div></div></div>
+        <div class="col" >
+            <button class="btn-success">Search</button></div></div>
+     </div>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/popper.main.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+     <script src="js/jquery-3.5.1.min.js"></script>
+     <script src="js/add.js"></script>
+     <script>
+         $(document).ready(function(){
+             $(".container").slideDown(700);
+         });
+
+    $('.from-left').hover(function (){
+    $(this).find('span').eq(0).animate({
+        width:'100%'
+    }, 300);
+}, function (){
+    $(this).find('span').eq(0).animate({
+        width:0
+    }, 300);
+    });
+     
+     </script>
+         
+   
+</body>
+</html>

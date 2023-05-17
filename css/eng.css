@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header p
+{
+    /*
+    background-image: url('../picutuer/7.jpg');
+    background-size: cover;
+    background-position: center center;
+    color:antiquewhite;
+    font-size: 100px;
+    text-align: left;
+    padding: 0px;
+    height: 88vh;
+    */
+    font-size: 100px;
+    text-align: center;
+}
+/*gfdgd*/
+.buttons-effect{
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-left: 75px;
+    margin-top: 10px;
+    background-color:rgba(255, 71, 71, 0.767);
+    width: 140px;
+    padding: 10px;
+    border-radius: 0px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    border:none;
+    text-decoration: none;
+  }
+  .buttons-effect.from-left span:first-child{
+    position: absolute;
+    left: 0;
+    top:0;
+    width:0%;
+    height: 100%;
+    display: block;
+    background-color: rgba(255, 217, 0, 0.774);
+    z-index: 1;
+  }
+  .buttons-effect.from-left span:last-child{
+    position: relative;
+    z-index: 2;
+  }
+  /*rgrgreg8*/
+.address
+{
+    color:black;
+    letter-spacing:normal;
+    text-align:center;
+    direction: ltr;
+    text-transform: uppercase;
+    border: 5px double #F00;   
+}
+.content
+{
+    width:800px;
+    margin:10px auto;
+    background-color:antiquewhite;
+    padding: 10px;
+}
+.child
+{
+    background-color:burlywood;
+    color: blanchedalmond;
+    padding: 10px;
+    margin:20px;
+    width:150px;
+}
+.content span
+{
+    float: right;
+}
+.sandwich
+{ 
+    font-family: cursive;
+    height: 627px;
+    width: 1200px;
+    color:white;
+    background-image: url('../imgs/123.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: bottom;
+    border: 3px solid black;
+    margin: 30px;
+}
+.sandwich span
+{
+    padding: 10px;
+    float: right;
+}
+.sandwich p{
+    margin: 5px;
+    padding: 10px;
+}
+.special
+{
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.offers
+{
+    font-family: Algerian;
+    background-color:orangered;
+    color:whitesmoke;
+    border-radius: 18px;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+}
+.offers span
+{
+    text-decoration: line-through;
+}
+.footer
+{
+    font-family: cursive;
+    background: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    
+}
+a:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Html For Beginners.">
+        <title>
+            REVIEWS
+        </title>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+    <body>
+        <div class="dropdown">
+            <button>TASTE</button>
+            <ul>
+                <li><a href="#">Delicious</a></li>
+                <li><a href="#">Good</a></li>
+                <li><a href="#">Not bad</a></li>
+                <li><a href="#">Bad</a></li>
+            </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('button').click(function(){
+                    $('ul').toggleClass('active')
+                })
+            } )
+        </script>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="dropdown2">
+            <button>Rate your order from 1 to 5</button>
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('button').click(function(){
+                    $('ul').toggleClass('active2')
+                })
+            } )
+        </script>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="dropdown3">
+            <button>Rate the price of your order</button>
+            <ul>
+                <li><a href="#">expensive</a></li>
+                <li><a href="#">medium</a></li>
+                <li><a href="#">suitable</a></li>
+            </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('button').click(function(){
+                    $('ul').toggleClass('active3')
+                })
+            } )
+        </script>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="submit">
+            <form id="Frm1" action="/action_page.php">
+                Leave a comment:<input type="text" placeholder="leave a comment"
+                                       comment="Leave a comment" > <br />
+                <input type="submit" value="SEND" class="submit"/>
+        </form>
+        </div>
+    </body>
+</html>
